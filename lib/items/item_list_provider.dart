@@ -20,3 +20,8 @@ class ItemList extends _$ItemList {
     ];
   }
 }
+
+@Riverpod(dependencies: [])
+String currentItem(CurrentItemRef ref) {
+  throw UnimplementedError();
+}
